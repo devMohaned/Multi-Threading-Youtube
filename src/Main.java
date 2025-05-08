@@ -5,7 +5,7 @@ import java.util.List;
 
 
 public class Main {
-    private static DatabaseRepository databaseRepository = new DatabaseRepository();
+    private static final DatabaseRepository databaseRepository = new DatabaseRepository();
 
     public static void main(String[] args) {
         long timeStarted = System.currentTimeMillis();
